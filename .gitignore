@@ -1,3 +1,5 @@
 .idea/
 __pycache__/
 venv/
+vosk_model-small/
+KEY.py
