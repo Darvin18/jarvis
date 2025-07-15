@@ -3,7 +3,7 @@ import pyttsx3
 
 def speaker(text):
     engine = pyttsx3.init()
-    engine.setProperty('rate', 200)
+    engine.setProperty('rate', 240)
     engine.say(text)
     engine.runAndWait()
     engine.stop()
